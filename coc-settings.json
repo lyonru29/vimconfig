@@ -1,0 +1,24 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "css",
+    "html",
+    "go",
+    "ts",
+    "jsx",
+    "tsx",
+    "typescript",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "eslint.autoFixOnSave": true,
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  }
+}
